@@ -5,10 +5,14 @@ import wastats
 
 UPLOAD_FOLDER = './uploads'
 ALLOWED_EXTENSIONS = ['txt']
+LOG_TO_STDOUT = os.environ.get('LOG_TO_STDOUT')
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config.update(SECRET_KEY=os.urandom(24))
+stream_handler = logging.StreamHandler()
+stream_handler.setLevel(logging.INFO)
+app.logger.addHandler(stream_handler)
 
 
 def allowed_file(filename):
@@ -38,3 +42,5 @@ def upload_file():
     return render_template('index.html')
 
 
+if __name__ == '__main__':
+    app.run()
