@@ -1,4 +1,5 @@
 import os
+import logging
 from flask import Flask, redirect, request, flash, render_template
 from werkzeug.utils import secure_filename
 import wastats
