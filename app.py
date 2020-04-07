@@ -4,8 +4,7 @@ from flask import Flask, redirect, request, flash, render_template
 from werkzeug.utils import secure_filename
 import wastats
 
-os.chdir('/tmp')
-UPLOAD_FOLDER = f'{os.getcwd()}'
+UPLOAD_FOLDER = '/tmp'
 ALLOWED_EXTENSIONS = ['txt']
 LOG_TO_STDOUT = os.environ.get('LOG_TO_STDOUT')
 
@@ -39,7 +38,7 @@ def upload_file():
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             plot = wastats.process(f'{app.config["UPLOAD_FOLDER"]}/{filename}')
-            os.remove(f'{app.config["UPLOAD_FOLDER"]}/{filename}')
+            #os.remove(f'{app.config["UPLOAD_FOLDER"]}/{filename}')
             return render_template('results.html', name=filename.split('.')[0], source=plot)
     return render_template('index.html')
 
