@@ -1,9 +1,6 @@
 import os
-
 from flask import Flask, redirect, request, flash, render_template
-from flask_bootstrap import Bootstrap
 from werkzeug.utils import secure_filename
-
 import whatsappstats
 
 UPLOAD_FOLDER = './uploads'
@@ -12,7 +9,6 @@ ALLOWED_EXTENSIONS = ['txt']
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config.update(SECRET_KEY=os.urandom(24))
-bootstrap = Bootstrap(app)
 
 
 def allowed_file(filename):
