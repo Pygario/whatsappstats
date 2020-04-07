@@ -1,7 +1,7 @@
 import os
 from flask import Flask, redirect, request, flash, render_template
 from werkzeug.utils import secure_filename
-import whatsappstats
+import wastats
 
 UPLOAD_FOLDER = './uploads'
 ALLOWED_EXTENSIONS = ['txt']
@@ -32,7 +32,7 @@ def upload_file():
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            plot = whatsappstats.process(f'./uploads/{filename}')
+            plot = wastats.process(f'./uploads/{filename}')
             os.remove(f'./uploads/{filename}')
             return render_template('results.html', name=filename.split('.')[0], source=plot)
     return render_template('index.html')
