@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8638d9e4-b939-418b-907c-6159436eabcb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsgi.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+            <state relative-caret-position="213">
+              <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -66,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -123,8 +121,8 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/nltk.txt" />
         <option value="$PROJECT_DIR$/wsgi.py" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
@@ -234,7 +232,7 @@
       <updated>1586085899436</updated>
       <workItem from="1586085904681" duration="23326000" />
       <workItem from="1586121169275" duration="3000000" />
-      <workItem from="1586259592323" duration="3100000" />
+      <workItem from="1586259592323" duration="3738000" />
     </task>
     <task id="LOCAL-00001" summary="Test comm,it">
       <created>1586117841418</created>
@@ -285,11 +283,25 @@
       <option name="project" value="LOCAL" />
       <updated>1586262001067</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Test comm,it">
+      <created>1586262710356</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586262710356</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Test comm,it">
+      <created>1586263003866</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586263003866</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29426000" />
+    <option name="totallyTimeSpent" value="30064000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -302,8 +314,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -318,7 +331,7 @@
       <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026652" side_tool="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4989339" weight="0.32917964" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49733475" visible="true" weight="0.44652128" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49733475" visible="true" weight="0.44652128" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49946696" weight="0.32917964" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -453,16 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -481,6 +484,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
