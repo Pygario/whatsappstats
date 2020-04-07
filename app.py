@@ -4,8 +4,8 @@ from flask import Flask, redirect, request, flash, render_template
 from werkzeug.utils import secure_filename
 import wastats
 
-
-UPLOAD_FOLDER = f'{os.getcwd()}/uploads'
+os.chdir('/tmp')
+UPLOAD_FOLDER = f'{os.getcwd()}'
 ALLOWED_EXTENSIONS = ['txt']
 LOG_TO_STDOUT = os.environ.get('LOG_TO_STDOUT')
 
